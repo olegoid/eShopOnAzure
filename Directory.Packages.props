@@ -12,11 +12,12 @@
   <ItemGroup>
     <!-- Version together with Aspire -->
     <PackageVersion Include="Aspire.Azure.Messaging.ServiceBus" Version="$(AspireVersion)" />
-    <PackageVersion Include="Aspire.Hosting" Version="$(AspireVersion)" />
-    <PackageVersion Include="Aspire.Hosting.Azure" Version="$(AspireVersion)" />
+    <PackageVersion Include="Aspire.Hosting" Version="8.0.0-preview.3.24105.21" />
+    <PackageVersion Include="Aspire.Hosting.Azure" Version="8.0.0-preview.3.24105.21" />
     <PackageVersion Include="Aspire.Npgsql" Version="$(AspireVersion)" />
     <PackageVersion Include="Aspire.Npgsql.EntityFrameworkCore.PostgreSQL" Version="$(AspireVersion)" />
     <PackageVersion Include="Aspire.StackExchange.Redis" Version="$(AspireVersion)" />
+    <PackageVersion Include="Microsoft.ApplicationInsights" Version="2.22.0" />
     <PackageVersion Include="Microsoft.Extensions.ServiceDiscovery" Version="$(AspireVersion)" />
     <PackageVersion Include="Microsoft.Extensions.ServiceDiscovery.Yarp" Version="$(AspireVersion)" />
     <!-- Version together with ASP.NET -->
